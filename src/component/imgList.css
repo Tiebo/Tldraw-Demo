@@ -1,0 +1,42 @@
+.img-card {
+  border: 6px #242424 solid;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.img-card::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  /**/
+}
+.img-card::-webkit-scrollbar-track {
+  background: rgb(239, 239, 239);
+  border-radius: 15px;
+}
+.img-card::-webkit-scrollbar-thumb {
+  background: #bfbfbf;
+  border-radius: 15px;
+}
+.img-card::-webkit-scrollbar-corner {
+  background: #179a16;
+}
+.img-card-item > img {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 200ms;
+  object-fit: cover;
+}
+.img-card-item > img:hover {
+  transform: scale(1.05);
+  transition: 200ms;
+}
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #bfbfbf;
+}

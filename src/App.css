@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.card {
+  width: 60vw;
+  height: 70vh;
+  border: 6px #3b82f6 solid;
+  border-radius: 15px;
+}
+.card > * {
+  border-radius: 10px;
+}
+.content {
+  display: flex;
+  gap: 20px;
+}
