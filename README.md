@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-# Tldraw-Demo
-Tldraw demo
-=======
-<<<<<<< HEAD
-# Tldraw-Demo
+
 Tldraw demo
 =======
 # React + Typescript + Vite + Tldraw
@@ -21,8 +16,3 @@ Tldraw demo
 打开main.py后下载依赖
 运行：python.exe -m uvicorn main:app --reload
 ```
-
-
-
->>>>>>> 8eb3648 (first commit)
->>>>>>> 5718af6 (first commit)
